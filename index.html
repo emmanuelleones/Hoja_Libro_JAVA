@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Maquetación de Página de un Libro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Define el contenido y el borde de la hoja -->
+
+        <div class="item">
+            <!-- Define un item -->
+            <br><br> <!-- Define dos saltos de línea -->
+            <b>274</b>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Programación en JAVA 2
+            <dl>
+                <!-- DL: Se emplea para definir listas de definición -->
+                <dt> 9.1. &nbsp;CLASES Y OBJETOS </dt>
+                <!-- DT: Se emplea para definir los términos de los elementos de una lista de definición-->
+
+                <dd>
+                    <!-- DD: Se emplea para indicar las definiciones de los elementos de una lista de definición-->
+                    <p class="concepto">
+                        El paradigma orientado a objeto nació en 1969 de la mano del doctor noruego Kristin Nygaard, que
+                        intentando escribir un programa de computadora que describiera el movimiento de los barcos a
+                        travéz
+                        de un fiordo descubrió que era muy difícil simular las mareas, los movimiento de los barcos y
+                        las
+                        formas de la línea de la costa con los métodos de programación existentes en ese momento.
+                        Descubrió
+                        que los elementos del entorno que trataba de modelar --barcos, mareas y línea de la costa de los
+                        fiordos-- y las acciones que cada elemento podía ejecutar constituían unas relaciones que eran
+                        más
+                        fáciles de manejar. <br>
+
+                        &nbsp;&nbsp;&nbsp;Las tecnologías orientadas a objetos han evolucionado mucho, pero mantienen la
+                        razón de ser del
+                        paradigma: combinación de la descripción de los elementos en un entorno de proceso de datos con
+                        las
+                        acciones ejecutadas por esos elementos. Las clases y los objetos con instancias o ejemplares de
+                        ellas
+                        son los elemetos clave sobre los que se articula la orientación a objetos.
+                    </p>
+                </dd>
+        </div>
+
+
+        <div class="item">
+            <dt>9.1.1. ¿Qué son objetos? </dt>
+            <dd>
+                <p class="concepto">
+                    En el mundo real, las personas identifican los objetos como cosas que pueden ser percibidas por los
+                    cinco sentidos. Los objetos tienen propiedades específicas, tales como posición, tamaño, color,
+                    forma,
+                    textura, etc., que definen su estado. Los objetos también tienen ciertos comportamientos que los
+                    hacen
+                    diferentes de otros objetos.<br>
+
+
+
+                    &nbsp;&nbsp;&nbsp;Booch<sup>1</sup> define un <i>objeto</i> como «algo que tiene un estado, un
+                    comportamiento y una identidad».
+                    Supongamos una máquina de una fábrica. El <i>estado</i> de la <i>máquina</i> puede ser
+                    <i>funcionando/parando</i>
+                    («on/off») su pontencia, velocidad máxima, obtener su temperatura, etc. Su <i>comportamiento</i>
+                    puede
+                    incluir acciones para arrancar y parar la máquina, obtener su temperatura activar o desactivar otras
+                    máquinas, condiciones de señal de error o cambiar la velocidad. Su <i>identidad</i> se basa en el
+                    hecho de que
+                    cada instancia de una máquina es única, tal vez ideficada por un número de serie. Las caracteríticas
+                    que se eligen para enfatizar en el estado y el comportamiento se apoyarán en cómo un objeto máquina
+                    se utilizará en una aplicación. En un diseño de un programa orientado a objetos se crea una
+                    abstacción
+                    (un modelo simplificado) de la máquina basado en las propiedades y comportamiento que son útiles en
+                    el tiempo.<br>
+
+
+
+                    &nbsp;&nbsp;&nbsp;[Martin/Odell] definen un objeto como «cualquier cosa, real o abstracta, en las
+                    que se almacenan
+                    datos y aquellos métodos (operaciones) que manipulan los datos». Para realizar esa actividad se
+                    añaden
+                    a cada objeto de la clase los propios datos» asociados con sus propias métodos que pertenecen
+                    a la clase.<br>
+
+
+
+                    &nbsp;&nbsp;&nbsp;Cualquier programa orientado a objetos puede manejar muchos objetos. Por ejemplo,
+                    un programa
+                    que maneja el inventario de un almacén de ventas al por menor utiliza un objeto de cada producto
+                    manipulado en el almacén. El programa manipula los mismos datos de cada objeto, incluyendo el
+                    número de producto, descripción del producto, precio, número de artículos del <i>stock</i> y el
+                    momento de
+                    nuevos pedidos.<br>
+
+
+
+                    &nbsp;&nbsp;&nbsp;Cada objeto conoce también cómo ejecutar acciones con sus propios datos. El objeto
+                    producto del
+                    programa de inventario, por ejemplo, conoce cómo crearse a sí mismo y establecer los valores
+                    iniciales
+                    de todos sus datos, cómo modificar sus datos y cómo evaluar si hay artículos suficientes en el
+                    <i>stock</i> para
+                    cumplir una petición de compra. En esencia, la cosa más importan de un objeto es reconocer que
+                    consta de datos, y las acciones que pueden ejecutar.<br>
+
+
+
+                    &nbsp;&nbsp;&nbsp;Un objeto de un programa de computadora no es algo que se pueda tocar. Cuando un
+                    programa se
+                    ejecuta, la mayoria de los objetos existen en memoria principal. Los objetos se crean por un
+                    programa
+                    para su uso mientras el programa se está ejecutando. A menos se guarden los datos de un objeto en   
+                    <br>
+                </p>
+            </dd>
+            </dl>
+        </div>
+
+
+        <footer>
+                <p class="pie"> ____________________</p>
+                    <p class="pie_2"><sup>1</sup>Booch, Grady, Análisis y diseño orientado a objetos con apliaciones. Madrid, Díaz de
+                    Santos/Addison-Wesley, 1995.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
